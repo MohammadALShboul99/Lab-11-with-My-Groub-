@@ -17,7 +17,7 @@ class My_button extends StatelessWidget {
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(30))),
       onPressed: onPressed,
       child: Text(
-        "Log In",
+        "Sign in",
         style: TextStyle(color: Colors.blueAccent),
       ),
     );
