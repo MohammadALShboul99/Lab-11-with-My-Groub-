@@ -20,30 +20,43 @@ class _Log_inState extends State<Log_in> {
               onPressed: () {},
               icon: Icon(
                 Ionicons.menu,
-                color: Colors.black,
+                color: Colors.blue,
               ))
         ],
         leading: Icon(
           Ionicons.person,
-          color: Colors.black,
+          color: Colors.blue,
         ),
         elevation: 0,
         backgroundColor: Color.fromARGB(255, 255, 255, 255),
       ),
       body: Container(
+        width: double.infinity,
+        height: double.infinity,
+        decoration: BoxDecoration(
+            gradient: SweepGradient(colors: [
+          Color(0xFF4285F4),
+          Color.fromARGB(255, 11, 117, 240),
+          Color.fromARGB(255, 65, 108, 248),
+          Color.fromARGB(210, 69, 96, 248),
+          Color(0xFF4285F4),
+        ])),
         child: SingleChildScrollView(
           scrollDirection: Axis.vertical,
           child: Column(
             children: [
+              SizedBox(
+                height: 20,
+              ),
               Text(
                 "Login",
-                style: Theme.of(context)
-                    .textTheme
-                    .headline3!
-                    .copyWith(fontWeight: FontWeight.bold, color: Colors.black),
+                style: Theme.of(context).textTheme.headline3!.copyWith(
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white,
+                    ),
               ),
               SizedBox(
-                height: 30,
+                height: 20,
               ),
               Text_fel(
                 obscure: false,
@@ -54,7 +67,7 @@ class _Log_inState extends State<Log_in> {
                 TypeInput: "Password",
               ),
               SizedBox(
-                height: 40,
+                height: 25,
               ),
               My_button(
                 onPressed: () {

@@ -7,7 +7,7 @@ class My_button extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
-          backgroundColor: Colors.deepPurple,
+          backgroundColor: Colors.white,
           padding: EdgeInsets.symmetric(
             horizontal: 50,
             vertical: 20,
@@ -16,7 +16,10 @@ class My_button extends StatelessWidget {
           shape:
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(30))),
       onPressed: onPressed,
-      child: Text("Log In"),
+      child: Text(
+        "Log In",
+        style: TextStyle(color: Colors.blueAccent),
+      ),
     );
   }
 }

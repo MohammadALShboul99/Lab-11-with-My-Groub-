@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:lab11/screens/login.dart';
-import 'home.dart';
 
 class Splash_theme extends StatefulWidget {
   @override
