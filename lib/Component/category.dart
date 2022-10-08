@@ -1,6 +1,16 @@
+import 'package:lab11/Home.dart';
 import 'package:lab11/model/product_model.dart';
 import 'package:flutter/material.dart';
+import 'package:lab11/screens/letters.dart';
 import 'package:lab11/screens/login.dart';
+import 'package:lab11/screens/numbers.dart';
+
+List pages = [
+  Letters(),
+  Number(),
+  const Home(),
+  const Home(),
+];
 
 class CategoryList extends StatelessWidget {
   const CategoryList({Key? key});
@@ -17,7 +27,7 @@ class CategoryList extends StatelessWidget {
               product: products[index],
               onmyTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => const Log_in()));
+                    MaterialPageRoute(builder: (context) => pages[index]));
               },
               pageName: "",
             ));

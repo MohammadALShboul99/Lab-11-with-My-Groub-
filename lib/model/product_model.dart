@@ -23,11 +23,10 @@ List<Product> products = [
   ),
   Product(
     id: 2,
-    title: "english grammar",
-    image: "assets/images/Grammar.jfif",
+    title: "english Numbers",
+    image: "assets/images/Numbersss.jpg",
     color: const Color(0xFFff6374),
     courses: 22,
-    
   ),
   Product(
     id: 3,

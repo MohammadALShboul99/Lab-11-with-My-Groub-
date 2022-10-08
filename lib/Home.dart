@@ -141,8 +141,8 @@ class _HomeState extends State<Home> {
                   const SizedBox(
                     height: 20,
                   ),
-                 //we can not use gridview inside column
-                //use shrinkwrap and physical scroll
+                  //we can not use gridview inside column
+                  //use shrinkwrap and physical scroll
                   const CategoryList(),
                   const SizedBox(
                     height: 20,

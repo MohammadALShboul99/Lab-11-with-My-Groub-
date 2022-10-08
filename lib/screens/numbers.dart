@@ -16,17 +16,17 @@ class _NumberState extends State<Number> {
   AudioPlayer player = AudioPlayer();
 
   //* Image
-  String backgroundImage = 'Assets/Images/numbers.jpeg';
-  String image_1 = 'Assets/Images/1.jpeg';
-  String image_2 = 'Assets/Images/2.jpeg';
-  String image_3 = 'Assets/Images/3.jpeg';
-  String image_4 = 'Assets/Images/4.jpeg';
-  String image_5 = 'Assets/Images/5.jpg';
-  String image_6 = 'Assets/Images/6.jpeg';
-  String image_7 = 'Assets/Images/7.jpeg';
-  String image_8 = 'Assets/Images/8.jpeg';
-  String image_9 = 'Assets/Images/9.jpeg';
-  String image_10 = 'Assets/Images/10.jpeg';
+  String backgroundImage = 'assets/Images/numbers.jpeg';
+  String image_1 = 'assets/images/1.jpeg';
+  String image_2 = 'assets/images/2.jpeg';
+  String image_3 = 'assets/images/3.jpeg';
+  String image_4 = 'assets/images/4.jpeg';
+  String image_5 = 'assets/images/5.jpg';
+  String image_6 = 'assets/images/6.jpeg';
+  String image_7 = 'assets/images/7.jpeg';
+  String image_8 = 'assets/images/8.jpeg';
+  String image_9 = 'assets/images/9.jpeg';
+  String image_10 = 'assets/images/10.jpeg';
 
   //* Audio
   String audio_1 = 'Audios/1.mp3';
