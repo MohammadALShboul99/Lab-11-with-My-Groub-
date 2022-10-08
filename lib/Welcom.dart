@@ -21,17 +21,17 @@ class _WelcomeState extends State<Welcome> {
               child: Container(
                 width: double.infinity,
                 decoration: const BoxDecoration(
-                    color: blue,
+                    color: kblue,
                     borderRadius: BorderRadius.only(
                       bottomRight: Radius.circular(80),
                     )),
-                child: Image(image: AssetImage("images/welcome.png")),
+                child: Image(image: AssetImage("assets/images/welcome.png")),
               ),
             ),
             Expanded(
               flex: 2,
               child: Container(
-                color: blue,
+                color: kblue,
                 child: Container(
                   width: double.infinity,
                   decoration: const BoxDecoration(
@@ -70,7 +70,7 @@ class _WelcomeState extends State<Welcome> {
                               height: 50,
                               shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(20)),
-                              color: pink,
+                              color: kpink,
                               child: Text(
                                 "Get started",
                                 style: TextStyle(
