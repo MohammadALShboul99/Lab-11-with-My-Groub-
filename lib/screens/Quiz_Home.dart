@@ -23,16 +23,19 @@ class _Quiz_HomeState extends State<Quiz_Home> {
             style: TextStyle(color: Colors.blue.shade600),
           ),
           actions: [
-            IconButton(
-                onPressed: () {},
-                icon: const Icon(
-                  Ionicons.menu,
-                  color: Colors.blue,
-                ))
+            Icon(
+              Ionicons.person,
+              color: Colors.blue,
+            ),
           ],
-          leading: const Icon(
-            Ionicons.person,
-            color: Colors.blue,
+          leading: IconButton(
+            onPressed: () {
+              Navigator.pushNamed(context, "Quiz_page");
+            },
+            icon: const Icon(
+              Ionicons.menu,
+              color: Colors.blue,
+            ),
           ),
           elevation: 0,
           backgroundColor: Color.fromARGB(255, 255, 255, 255),
@@ -52,7 +55,7 @@ class _Quiz_HomeState extends State<Quiz_Home> {
         body: TabBarView(children: [
           Qus(
               qus_text: "What is my name dsfsdfds fdsfds dfsdfds ?",
-              ima: const AssetImage("images/2.jpg"),
+              ima: const AssetImage("assets/imagForQues/12.png"),
               answer_1: "answer_1",
               answer_2: "answer_2",
               answer_3: "answer_3",
@@ -63,7 +66,7 @@ class _Quiz_HomeState extends State<Quiz_Home> {
               Correct_answer4: "Wronge answer"),
           Qus(
               qus_text: "What is my name dsfsdfds fdsfds dfsdfds ?",
-              ima: const AssetImage("images/2.jpg"),
+              ima: const AssetImage("assets/imagForQues/12.png"),
               answer_1: "answer_1",
               answer_2: "answer_2",
               answer_3: "answer_3",
@@ -74,7 +77,7 @@ class _Quiz_HomeState extends State<Quiz_Home> {
               Correct_answer4: "Wronge answer"),
           Qus(
               qus_text: "What is my name dsfsdfds fdsfds dfsdfds ?",
-              ima: const AssetImage("images/2.jpg"),
+              ima: const AssetImage("assets/imagForQues/12.png"),
               answer_1: "answer_1",
               answer_2: "answer_2",
               answer_3: "answer_3",
@@ -85,7 +88,7 @@ class _Quiz_HomeState extends State<Quiz_Home> {
               Correct_answer4: "Wronge answer"),
           Qus(
               qus_text: "What is my name dsfsdfds fdsfds dfsdfds ?",
-              ima: const AssetImage("images/2.jpg"),
+              ima: const AssetImage("assets/imagForQues/12.png"),
               answer_1: "answer_1",
               answer_2: "answer_2",
               answer_3: "answer_3",
@@ -96,7 +99,7 @@ class _Quiz_HomeState extends State<Quiz_Home> {
               Correct_answer4: "Wronge answer"),
           Qus(
               qus_text: "What is my name dsfsdfds fdsfds dfsdfds ?",
-              ima: const AssetImage("images/2.jpg"),
+              ima: const AssetImage("assets/imagForQues/12.png"),
               answer_1: "answer_1",
               answer_2: "answer_2",
               answer_3: "answer_3",
@@ -107,7 +110,7 @@ class _Quiz_HomeState extends State<Quiz_Home> {
               Correct_answer4: "Wronge answer"),
           Qus(
               qus_text: "What is my name dsfsdfds fdsfds dfsdfds ?",
-              ima: const AssetImage("images/2.jpg"),
+              ima: const AssetImage("assets/imagForQues/12.png"),
               answer_1: "answer_1",
               answer_2: "answer_2",
               answer_3: "answer_3",
@@ -118,7 +121,7 @@ class _Quiz_HomeState extends State<Quiz_Home> {
               Correct_answer4: "Wronge answer"),
           Qus(
               qus_text: "What is my name dsfsdfds fdsfds dfsdfds ?",
-              ima: const AssetImage("images/2.jpg"),
+              ima: const AssetImage("assets/imagForQues/12.png"),
               answer_1: "answer_1",
               answer_2: "answer_2",
               answer_3: "answer_3",
@@ -129,7 +132,7 @@ class _Quiz_HomeState extends State<Quiz_Home> {
               Correct_answer4: "Wronge answer"),
           Qus(
               qus_text: "What is my name dsfsdfds fdsfds dfsdfds ?",
-              ima: const AssetImage("images/2.jpg"),
+              ima: const AssetImage("assets/imagForQues/12.png"),
               answer_1: "answer_1",
               answer_2: "answer_2",
               answer_3: "answer_3",
@@ -140,7 +143,7 @@ class _Quiz_HomeState extends State<Quiz_Home> {
               Correct_answer4: "Wronge answer"),
           Qus(
               qus_text: "What is my name dsfsdfds fdsfds dfsdfds ?",
-              ima: const AssetImage("images/2.jpg"),
+              ima: const AssetImage("assets/imagForQues/12.png"),
               answer_1: "answer_1",
               answer_2: "answer_2",
               answer_3: "answer_3",
@@ -151,7 +154,7 @@ class _Quiz_HomeState extends State<Quiz_Home> {
               Correct_answer4: "Wronge answer"),
           Qus(
               qus_text: "What is my name dsfsdfds fdsfds dfsdfds ?",
-              ima: const AssetImage("images/2.jpg"),
+              ima: const AssetImage("assets/imagForQues/12.png"),
               answer_1: "answer_1",
               answer_2: "answer_2",
               answer_3: "answer_3",

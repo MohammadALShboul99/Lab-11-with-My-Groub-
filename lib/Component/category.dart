@@ -3,9 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:lab11/screens/login.dart';
 
 class CategoryList extends StatelessWidget {
-  const CategoryList({
-    Key? key,
-  }) : super(key: key);
+  const CategoryList({Key? key});
 
   @override
   Widget build(BuildContext context) {
@@ -21,6 +19,7 @@ class CategoryList extends StatelessWidget {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => const Log_in()));
               },
+              pageName: "",
             ));
   }
 }
@@ -30,8 +29,10 @@ class CategoryCard extends StatelessWidget {
     Key? key,
     required this.product,
     required this.onmyTap,
+    required this.pageName,
   }) : super(key: key);
   final Product product;
+  final String pageName;
   final Function() onmyTap;
   @override
   Widget build(BuildContext context) {

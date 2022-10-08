@@ -17,16 +17,17 @@ List<Product> products = [
   Product(
     id: 1,
     title: "English letters",
-    image: "assets/images/L.jfif",
+    image: "assets/images/LL.jfif",
     color: const Color(0xFF71b8ff),
     courses: 16,
   ),
   Product(
     id: 2,
     title: "english grammar",
-    image: "assets/images/G.jfif",
+    image: "assets/images/Grammar.jfif",
     color: const Color(0xFFff6374),
     courses: 22,
+    
   ),
   Product(
     id: 3,

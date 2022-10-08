@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lab11/screens/Quiz_Home.dart';
 
 import 'package:lab11/screens/login.dart';
 
@@ -34,7 +35,7 @@ class Sorting extends StatelessWidget {
             onPressed: () {
               //home screen path
               Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => const Log_in()));
+                  MaterialPageRoute(builder: (context) => const Quiz_Home()));
             },
             child: const Text(
               "quizzes",

@@ -80,7 +80,7 @@ class _HomeState extends State<Home> {
                             height: 10.0,
                           ),
                           Text(
-                            "Today is a good day\nto learn something new!",
+                            "Today is a good day \n to learn something new!",
                             style: TextStyle(
                               color: Colors.black54,
                               wordSpacing: 2.5,
@@ -141,8 +141,8 @@ class _HomeState extends State<Home> {
                   const SizedBox(
                     height: 20,
                   ),
-//we can not use gridview inside column
-//use shrinkwrap and physical scroll
+                 //we can not use gridview inside column
+                //use shrinkwrap and physical scroll
                   const CategoryList(),
                   const SizedBox(
                     height: 20,

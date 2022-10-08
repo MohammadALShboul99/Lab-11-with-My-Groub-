@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:ionicons/ionicons.dart';
 import 'package:lab11/Component/ButtoninLogin.dart';
 import 'package:lab11/Component/textFelied.dart';
+
 import 'package:lab11/model/showdialog.dart';
 
 class Log_in extends StatefulWidget {
@@ -14,6 +15,7 @@ class Log_in extends StatefulWidget {
 class _Log_inState extends State<Log_in> {
   TextEditingController? controller1 = TextEditingController();
   TextEditingController? controller2 = TextEditingController();
+  String? Name;
   String Email = "group5@gmail.com";
   String password = "123";
 
@@ -127,6 +129,9 @@ class _Log_inState extends State<Log_in> {
                     }
                   }
                 },
+              ),
+              SizedBox(
+                height: 50,
               ),
             ],
           ),
